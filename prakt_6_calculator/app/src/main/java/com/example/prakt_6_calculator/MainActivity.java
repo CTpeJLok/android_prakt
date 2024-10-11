@@ -53,6 +53,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void calculate(char o) {
+        if (o == 'C') {
+            number1.setText("");
+            operation.setText("");
+            number2.setText("");
+            return;
+        }
+
         float n1 = 0;
         float n2 = 0;
         float res = 0;
@@ -93,11 +100,6 @@ public class MainActivity extends AppCompatActivity {
                     res = 0;
                 else
                     res = n1 / n2;
-                break;
-            case 'C':
-                number1.setText("");
-                operation.setText("");
-                number2.setText("");
                 break;
             default:
                 break;
