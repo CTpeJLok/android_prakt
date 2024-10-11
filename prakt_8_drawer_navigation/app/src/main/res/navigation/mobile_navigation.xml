@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_new_group">
+
+    <fragment
+        android:id="@+id/nav_new_group"
+        android:name="com.example.prakt_8_1_drawer_navigation.ui.newGroup.Fragment"
+        android:label="Новая группа"
+        tools:layout="@layout/fragment_new_group" />
+
+    <fragment
+        android:id="@+id/nav_new_chat"
+        android:name="com.example.prakt_8_1_drawer_navigation.ui.newChat.Fragment"
+        android:label="Новый секретный чат"
+        tools:layout="@layout/fragment_new_chat" />
+
+    <fragment
+        android:id="@+id/nav_create_channel"
+        android:name="com.example.prakt_8_1_drawer_navigation.ui.createChannel.Fragment"
+        android:label="Создать канал"
+        tools:layout="@layout/fragment_create_channel" />
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.example.prakt_8_1_drawer_navigation.ui.contacts.Fragment"
+        android:label="Контакты"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.example.prakt_8_1_drawer_navigation.ui.favorite.Fragment"
+        android:label="Избранное"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/nav_calls"
+        android:name="com.example.prakt_8_1_drawer_navigation.ui.calls.Fragment"
+        android:label="Звонки"
+        tools:layout="@layout/fragment_calls" />
+
+    <fragment
+        android:id="@+id/nav_invite_friends"
+        android:name="com.example.prakt_8_1_drawer_navigation.ui.inviteFriends.Fragment"
+        android:label="Пригласить друзей"
+        tools:layout="@layout/fragment_invite_friends" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.prakt_8_1_drawer_navigation.ui.settings.Fragment"
+        android:label="Настройки"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

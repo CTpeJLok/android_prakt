@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Profile App</string>
+    <string name="text_name">Имя: Андрей</string>
+    <string name="text_age">Возраст: 21</string>
+    <string name="text_spec">Специализация: Fullstack разработчик</string>
+    <string name="text_photo">Фото</string>
+    <string name="text_projects">Проекты</string>
+    <string name="text_spec2">Специализация</string>
+</resources>
