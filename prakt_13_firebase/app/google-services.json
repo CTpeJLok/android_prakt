@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680433346654",
+    "project_id": "prakt-13-firebase",
+    "storage_bucket": "prakt-13-firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680433346654:android:bbb2775d753678a62d2ccf",
+        "android_client_info": {
+          "package_name": "com.example.prakt_13_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChqlrrtQ0koQzfg68zHiYRi2nuwZ3CwME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

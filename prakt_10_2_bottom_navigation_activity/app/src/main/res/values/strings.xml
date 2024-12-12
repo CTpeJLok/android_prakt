@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">prakt_10_2_bottom_navigation_activity</string>
+    <string name="title_home">Главная</string>
+    <string name="title_photo">Фото</string>
+    <string name="title_info">Информация</string>
+</resources>

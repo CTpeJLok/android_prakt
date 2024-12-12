@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Позвонить в 112"
+        android:onClick="call"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/yandex"
+        />
+
+    <Button
+        android:id="@+id/yandex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть ya.ru"
+        android:onClick="yandex"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/call"
+        app:layout_constraintBottom_toTopOf="@id/email"
+        />
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Написать письмо группе"
+        android:onClick="email"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/yandex"
+        app:layout_constraintBottom_toTopOf="@id/vk"
+        />
+
+    <Button
+        android:id="@+id/vk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть вк в Play Market"
+        android:onClick="vk"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        app:layout_constraintBottom_toTopOf="@id/flash"
+        />
+
+    <Button
+        android:id="@+id/flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Включить фонарик"
+        android:onClick="flash"
+        android:backgroundTint="@color/yellow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vk"
+        app:layout_constraintBottom_toTopOf="@id/inet_check"
+        />
+
+    <Button
+        android:id="@+id/inet_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Проверить подключение к интернету"
+        android:onClick="inetCheck"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flash"
+        app:layout_constraintBottom_toTopOf="@id/go_web"
+        />
+
+    <Button
+        android:id="@+id/go_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть браузер"
+        android:onClick="goWeb"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inet_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
